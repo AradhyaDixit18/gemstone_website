@@ -1,3 +1,4 @@
+/* ----------  Container  ---------- */
 .container {
     padding: 2rem;
     max-width: 800px;
@@ -7,6 +8,7 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   }
   
+  /* ----------  Headings & Messages  ---------- */
   .title {
     text-align: center;
     font-size: 2rem;
@@ -22,6 +24,7 @@
     margin-top: 2rem;
   }
   
+  /* ----------  List & Items  ---------- */
   .cartList {
     list-style: none;
     padding: 0;
@@ -43,6 +46,7 @@
     transform: scale(1.02);
   }
   
+  /* ----------  Image & Details  ---------- */
   .itemImage {
     width: 80px;
     height: 80px;
@@ -68,5 +72,20 @@
   .itemDimension {
     font-size: 1rem;
     color: #666;
+  }
+  
+  /* ----------  Remove Button  ---------- */
+  .removeBtn {
+    background: none;
+    border: none;
+    color: #e63946;
+    font-size: 1.2rem;
+    margin-left: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .removeBtn:hover {
+    transform: scale(1.2);
   }
   
