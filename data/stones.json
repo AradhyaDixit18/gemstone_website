@@ -1,0 +1,23 @@
+{
+    "round": [
+      {
+        "name": "Brilliant Diamond",
+        "img": "/images/brilliant-diamond.png",
+        "colors": ["#ffffff", "#e0e0e0"],
+        "sizes": ["1ct", "2ct", "3ct"],
+        "cuts": ["Brilliant"],
+        "dimensions": "6.5mm"
+      }
+    ],
+    "oval": [
+      {
+        "name": "Blue Sapphire",
+        "img": "/images/blue-sapphire.png",
+        "colors": ["#0000ff"],
+        "sizes": ["1ct", "1.5ct"],
+        "cuts": ["Oval"],
+        "dimensions": "7x5mm"
+      }
+    ]
+  }
+  

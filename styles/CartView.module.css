@@ -1,0 +1,72 @@
+.container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fdfcff;
+    border-radius: 1.25rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #5a2b8a;
+    margin-bottom: 2rem;
+    font-weight: 700;
+  }
+  
+  .emptyMessage {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #777;
+    margin-top: 2rem;
+  }
+  
+  .cartList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cartItem {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+  }
+  
+  .cartItem:hover {
+    transform: scale(1.02);
+  }
+  
+  .itemImage {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 0.75rem;
+    margin-right: 1rem;
+    border: 2px solid #eee;
+  }
+  
+  .itemDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .itemName {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.4rem;
+  }
+  
+  .itemDimension {
+    font-size: 1rem;
+    color: #666;
+  }
+  
